@@ -13,7 +13,7 @@ from createtable import *
 
 
 def app_header():
-    st.warning("Try this with Indian_netwrok service, COWIN-API's are geo-fenced")
+    st.warning("Try this with Indian_network service, COWIN-API's are geo-fenced")
     st.title("Covid-19 Vaccine appointment slot availability tracker. (Karnataka)")
     st.header(
         "You can select the following conditions and if any vaccine slots are avaliable will show!")
