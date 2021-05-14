@@ -1,2 +1,5 @@
 streamlit
 regex=2021.4.4
+pandas
+json
+requests
