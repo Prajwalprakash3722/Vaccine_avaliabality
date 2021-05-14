@@ -7,7 +7,8 @@
  <ul>
     <li> You must have a good internet connection </li>
     <li> Clone this Repository </li>
-    <li> Run these commands in the terminal <script src="https://gist.github.com/Prajwalprakash3722/d138448da4011cc7f0d4ebb324f92a4d.js"></script></li>
+    <li> Run these commands in the terminal</li>
+    <script src="https://gist.github.com/Prajwalprakash3722/d138448da4011cc7f0d4ebb324f92a4d.js"></script>
     <li> local host "8501" opens up and you can carry on </li>
  </ul>
 
