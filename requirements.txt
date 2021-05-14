@@ -1,4 +1,8 @@
 streamlit==0.82.0
 regex==2021.4.4
 pandas==1.2.4
+<<<<<<< HEAD
 requests==2.25.1
+=======
+requests==2.25.1
+>>>>>>> 534cdac9cce3734b8bf1c78d467e3f73a2c82c2c
