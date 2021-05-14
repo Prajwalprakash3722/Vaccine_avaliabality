@@ -25,6 +25,7 @@ def main():
         user_pincode = st.text_input("Enter the Pincode(6 digits): ")
         if st.button("Verify Pincode"):
             st.markdown(get_pincode(user_pincode))
+    create_table(user_pincode)
     with right_column_1:
         date_input = st.date_input("Enter the date:")
     with right_column_2:

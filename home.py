@@ -1,4 +1,3 @@
-from createtable import create_table
 ####################################################################################################################################################################
 # Author: Prajwal Prakash
 # Date: 13/03/2021
@@ -10,8 +9,9 @@ from createtable import create_table
 import streamlit as st
 from main import *
 from request import *
+from createtable import create_table
+
 st.set_page_config(layout='wide', initial_sidebar_state='collapsed')
 
 app_header()
 main()
-create_table()

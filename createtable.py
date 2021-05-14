@@ -16,31 +16,10 @@ pd.set_option('display.max_columns', 500)
 pd.set_option('display.width', 1000)
  
 
-def create_table():
+def create_table(args):
 
     if st.button("Show avaliabality"):
-
-        data = [{
-            "center_id": 1234,
-            "name": "District General Hostpital",
-            "address": "45 M G Road",
-            "state_name": "Maharashtra",
-            "district_name": "Satara",
-            "block_name": "Jaoli",
-            "pincode": "413608",
-            "from": "09:00:00",
-            "to": "18:00:00",
-            "fee_type": "Paid",
-            "fee": "250",
-            "date": "31-05-2021",
-            "available_capacity": 50,
-            "available_capacity_dose1": 25,
-            "available_capacity_dose2": 25,
-            "min_age_limit": 18,
-            "vaccine": "COVISHIELD",
-        }
-        ]
-
+        data = sample_data(args)
         st.title("vaccination Avaliabality")
         df = pd.DataFrame(data)
         st.dataframe(df)

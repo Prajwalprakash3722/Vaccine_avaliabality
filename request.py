@@ -27,7 +27,11 @@ def get_pincode(pincode):
                     city_name = y['Name']
                     city_division = y['Division']
                     city_district = y['District']
-                    return city_name, city_division, city_district
+                    city_state = y['Circle']
+                    if city_state == 'Karnataka':
+                        return city_name, city_division, city_district
+                    else:
+                        return 'This service is only enabled for Karnataka. '
     except:
         status = "Enter correct Pincode"
         return status
@@ -54,3 +58,14 @@ def get_district_name(district_name):
         status = "Enter correct Pincode"
         print(status)
 
+def sample_data(pincode):
+    
+    url = f'https://api.postalpincode.in/pincode/{pincode}'
+    response = requests.get(url)
+    status = response.status_code
+    if status == 200:
+        readableA_json_data = json.loads(response.text)
+        for x in readableA_json_data:
+            data = x['PostOffice']
+
+    return data
