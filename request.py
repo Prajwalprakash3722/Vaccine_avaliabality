@@ -60,12 +60,15 @@ def get_district_name(district_name):
 
 def sample_data(pincode):
     
-    url = f'https://api.postalpincode.in/pincode/{pincode}'
-    response = requests.get(url)
-    status = response.status_code
-    if status == 200:
-        readableA_json_data = json.loads(response.text)
-        for x in readableA_json_data:
-            data = x['PostOffice']
+    try:
+        url = f'https://api.postalpincode.in/pincode/{pincode}'
+        response = requests.get(url)
+        status = response.status_code
+        if status == 200:
+            readableA_json_data = json.loads(response.text)
+            for x in readableA_json_data:
+                data = x['PostOffice']
 
-    return data
+        return data
+    except:
+        return 'No data found'
