@@ -17,10 +17,13 @@ pd.set_option('display.width', 1000)
  
 
 def create_table(args):
-
-    if st.button("Show avaliabality"):
-        st.header("Keep this in mind this is a dummy data to show you the working.")
-        data = sample_data(args)
-        st.title("vaccination Avaliabality")
-        df = pd.DataFrame(data)
-        st.dataframe(df)
+    
+    if st.button("Show availability"):
+        try:
+            st.header("Keep this in mind this is a dummy data to show you the working.")
+            data = sample_data(args)
+            st.title("vaccination Availability")
+            df = pd.DataFrame(data)
+            st.dataframe(df)
+        except:
+             st.header("Enter Proper Value ?")

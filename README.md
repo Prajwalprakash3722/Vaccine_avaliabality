@@ -8,10 +8,13 @@
     <li> You must have a good internet connection </li>
     <li> Clone this Repository </li>
     <li> Run these commands in the terminal</li>
-    <script src="https://gist.github.com/Prajwalprakash3722/d138448da4011cc7f0d4ebb324f92a4d.js"></script>
-    <li> local host "8501" opens up and you can carry on </li>
+  <ol>
+    <li> `cd Vaccine_avaliabality`</li>
+    <li> `streamlit start home.py `  
+  </ol>   
+   <li> local host "8501" opens up and you can carry on </li>
  </ul>
 
 <h1> This shows the dummy data from some other API.</h1>
 <h2> When the COWIN-API are opened for public, I will only update the fetching data</h2>
-<img src="https://camo.githubusercontent.com/10be9e867236dd49357aac457c348b672ba199dece78db957804cc6bd0bdf14c/68747470733a2f2f7777772e726173612e636f6d2f6173736574732f696d672f736172612f736172612d6f70656e2d736f757263652d322e302e706e67"> Open Source </img>
+<img src="https://camo.githubusercontent.com/10be9e867236dd49357aac457c348b672ba199dece78db957804cc6bd0bdf14c/68747470733a2f2f7777772e726173612e636f6d2f6173736574732f696d672f736172612f736172612d6f70656e2d736f757263652d322e302e706e67"/>
