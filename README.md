@@ -8,10 +8,12 @@
     <li> You must have a good internet connection </li>
     <li> Clone this Repository </li>
     <li> Run these commands in the terminal</li>
-  <ol>
-    <li> ```cd Vaccine_avaliabality````</li>
-    <li> ```streamlit start home.py ```  
-  </ol>   
+    ```bash
+          cd Vaccine_avaliabality
+    ```
+    ```bash
+    streamlit start home.py 
+    ```  
    <li> local host "8501" opens up and you can carry on </li>
  </ul>
 
