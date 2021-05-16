@@ -9,8 +9,8 @@
     <li> Clone this Repository </li>
     <li> Run these commands in the terminal</li>
   <ol>
-    <li> `cd Vaccine_avaliabality`</li>
-    <li> `streamlit start home.py `  
+    <li> ```cd Vaccine_avaliabality````</li>
+    <li> ```streamlit start home.py ```  
   </ol>   
    <li> local host "8501" opens up and you can carry on </li>
  </ul>
