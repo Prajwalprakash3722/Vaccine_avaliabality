@@ -5,16 +5,23 @@
  <h3> I had developed this earlier, I wish, i had released this before the Government of India blocked all of the COWIN-API </h3>
  <h1> To run this on your computer </h1>
  <ul>
-    <li> You must have a good internet connection </li>
-    <li> Clone this Repository </li>
+    <li> You must have a good internet connection.</li>
+    <li> Clone this Repository.</li>
     <li> Run these commands in the terminal</li>
-    ```bash
-          cd Vaccine_avaliabality
-    ```
-    ```bash
-    streamlit start home.py 
-    ```  
-   <li> local host "8501" opens up and you can carry on </li>
+</ul>
+
+```bash
+
+cd Vaccine_avaliabality
+
+pip install -r requirements.txt
+```
+```python
+
+streamlit run home.py
+```
+ <ul> 
+    <li> local host "8501" opens up and you can carry on </li>
  </ul>
 
 <h1> This shows the dummy data from some other API.</h1>
