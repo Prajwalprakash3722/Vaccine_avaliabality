@@ -21,3 +21,4 @@ st.markdown(
 components.html("""<a href="https://twitter.com/intent/tweet?screen_name=prakash_prajwal&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-lang="en" data-show-count="false">Tweet to @prakash_prajwal</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>""")
 if st.button("Report any issues in Github"):
     web.open_new_tab("https://github.com/Prajwalprakash3722/Vaccine_avaliabality/issues")
+    components.html("""<a href="https://github.com/Prajwalprakash3722/Vaccine_avaliabality/issues" class="twitter-mention-button" data-lang="en" data-show-count="false">Report issues</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>""")
