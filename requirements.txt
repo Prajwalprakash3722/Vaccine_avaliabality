@@ -2,3 +2,4 @@ streamlit==0.82.0
 regex==2021.4.4
 pandas==1.2.4
 requests==2.25.1
+webbrowser
